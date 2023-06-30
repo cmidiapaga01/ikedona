@@ -31,7 +31,7 @@ const Footer = () => {
                 </ul>
 
                 <span className="footer__copy">
-                    &#169; Theo. All rights reserved. Made in 2023
+                    &#169; Theo. All rights reserved. Made with S2 and React.js
                 </span>
             </div>
         </footer>

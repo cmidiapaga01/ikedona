@@ -6,9 +6,9 @@ const Home = () => {
     <section className="home section" id="home">
       <div className="home__container container grid">
         <div className="home__data">
-          <span className="home__greeting" id="greeting">Hello, I'm</span>
+          <span className="home__greeting">Hello, I'm</span>
           <h1 className="home__name">Theo Bucaretchi</h1>
-          <h3 className="home__education" id="education">Junior Frontend Engineer</h3>
+          <h3 className="home__education">Junior Frontend Engineer</h3>
 
           <div className="home__buttons">
             {/* <a download="" href="assets/pdf/resume.pdf" className="button button--ghost">Download CV</a> */}
