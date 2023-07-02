@@ -7,13 +7,15 @@ import Testimonials from './components/Testimonials';
 
 const MainSection = () => {
   return (
-    <div className="main">
-    <Home />
-    <About />
-    <Skills />
-    <Services />
-    <Testimonials />
-    </div>
+    <body>
+      <div className="main">
+      <Home />
+      <About />
+      <Skills />
+      <Services />
+      <Testimonials />
+      </div>
+    </body>
   );
 };
 

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import ThemeButton from './ThemeButton';
 import usaImage from '../img/usa.png';
 import brazilImage from '../img/brazil.png';
 import spainImage from '../img/spain.png';
@@ -55,7 +56,8 @@ const Nav = () => {
             </li>
           </ul>
         </div>
-        <i className='bx bx-moon change-theme' id="theme-button"></i>
+        {/* <i className='bx bx-moon change-theme' id="ThemeButton"></i> */}
+        <ThemeButton />
         <div className="dropdown">
             <button className="dropbtn">
                 <img src={usaImage} alt="English" className="flag-icon" />
