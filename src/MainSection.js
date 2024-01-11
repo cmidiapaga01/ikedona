@@ -7,7 +7,6 @@ import Testimonials from './components/Testimonials';
 
 const MainSection = () => {
   return (
-    <body>
       <div className="main">
       <Home />
       <About />
@@ -15,7 +14,6 @@ const MainSection = () => {
       <Services />
       <Testimonials />
       </div>
-    </body>
   );
 };
 

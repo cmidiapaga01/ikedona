@@ -1,5 +1,5 @@
 import React from 'react';
-import fillImage from '../img/fill.jpg';
+import fillImage from '../img/fill2.jpg';
 
 const Home = () => {
   return (
